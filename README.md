@@ -8,7 +8,7 @@ example:  var originalCoords = ["71,67,325,196","466,71,614,182","85,288,299,404
 
 Pass the resizeAreaCoords() function img class name, the area class name, array of area coords, the default image width, and the default image height.  Enclose the resizeAreaCoords() function in another function that will be invoked by onresize and onload.  
 example:  
-<body onresize = "myFunction()" onload = "myFunction()" >
+"<body onresize = "myFunction()" onload = "myFunction()" >"
 ...
 function myFunction(){
     resizeAreaCoords("collageImage", "areas", originalCoords, 1280, 720);
